@@ -13,4 +13,4 @@ console.log(output);
 
 let check=`the cost of ${1+2+3}`;
 console.log(check);
-// $ known as templete lettrals //// 
+// $ known as templete lettrals //// d
