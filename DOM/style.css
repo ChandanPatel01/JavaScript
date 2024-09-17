@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .main-header{
+    height:70px;
+    width: 100%;
+    background-color:#1cb5bb;
+    color:black;
+    display: flex;
+  }
+  
+  /* .header-Contents nav ul{
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 50px;
+    border: 2px solid red;
+    display: flex;
+    
+
+  }
+
+  .header-Contents nav ul li{
+    list-style: none;
+    align-items: center;
+   
+  }
+   */
+
+   .header-Contents {
+    display: flex;
+    justify-content: center; /* Centers the content horizontally */
+  }
+  
+  .header-Contents nav ul {
+    padding: 20px;
+    margin-top:0px;
+    margin-left: 73px; /* Removed extra margin to align it properly */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between; /* Distributes space between li elements */
+    width: 100%; /* Ensures the list stretches across the available space */
+    max-width: 600px; /* Optional: sets a maximum width to the nav list */
+  }
+  
+  .header-Contents nav ul li {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+  }
+  
+  .header-title{
+    /* border: 2px solid red; */
+    padding: 10px;
+    margin-left:200px;
+    height: 74px;
+    width: 168px;
+    margin-top: 0px;
+  }
+  .icon{
+    margin-left: 2px;
+   
+  }
+
+  .icon img {
+   
+  }
+/*   
+  .header-Contents {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: -149px;;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    margin-right: 50px;
+    padding-bottom: 10px;
+    font-size: 32px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+   */

@@ -1,0 +1,23 @@
+body{
+    background-color: cadetblue;
+}
+#h1{  
+    color: #d2f700;
+   background-color: rgb(33, 45, 45);
+
+}
+.con{
+        color: #77ff38;
+        background-color: rgb(48, 38, 26);
+}
+
+p{
+    background: #1aa8c4;
+    color: black;
+}
+button{
+    color:azure;
+    background-color: #26c01b; 
+    border-radius:10px ;
+   
+}
